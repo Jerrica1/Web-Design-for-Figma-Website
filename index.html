@@ -4,9 +4,560 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design for Figma Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Explore the world of Books</title>
 </head>
 <body>
     
+<div>
+
+<!-- NAVBAR SECTION -->
+
+<div class="navbar">
+  <img src="images/my logo 1.png" width="90px"alt="logo" align="left" style="margin-right: 1400px;">
+   <div class="nav-right">
+    <a href="#" style="color: black;">Mission</a>
+    <a href="#" style="color: black;">Discover</a>
+    <a href="#" style="color: black;">Pricing</a>
+    <a href="#" style="color: black;">Login</a>
+    <button type="button" style="background-color: darkblue; color: white;">Start Free Trial</button>
+  </div>
+  <!-- <div class="toggle-btn" onclick="toggleNav()">
+    <i class="fa fa-bars"></i>
+  </div> -->
+</div>
+<div style="text-align: center;">
+  <h3 style="color: black;">Explore the world of Books</h3>
+  <p>With Supreme online collection of books, academic texts, and tools, trusted by students worldwide.</p>
+  <div class="search" id="search-bar">
+    <input type="text" type="text" placeholder="Search...">
+    <button class="submit"><i class="fas fa-search"></i></button>
+  </div>
+  <script>
+    var searchBox-document.getElementById("search-bar");
+    var Icon-document.getElementsByClassName("submit")[0];
+    Icon.onclick=function()(
+        searchBox.classList.toggle("")
+    )
+  </script>
+</div>
+
+<style>
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #E1D9D1;
+    color: #fff;
+  }
+
+
+  .navbar img {
+      float:left;
+   }
+   
+
+
+  /* Navigation Links */
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  /* Navigation Right */
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Media Query for Responsive Design */
+  @media only screen and (max-width: 600px) {
+    /* Navigation Links */
+    .navbar a {
+      display: none;
+    }
+
+    /* Toggle Button */
+    .navbar .toggle-btn {
+      display: block;
+      cursor: pointer;
+    }
+  }
+</style>
+<!-- NAVBAR SECTION ENDS -->
+
+<!-- IMAGE SLIDER START -->
+
+<div class="container-h2">
+  <h2>Trending Books</h2>
+</div>
+<!-- First slider -->
+<div class="slider">
+  <button class="arrow prev">&#10094;</button>
+  <div class="slides">
+    <div class="slide">
+      <img src="images/An American Story.png" alt="Slide 1">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/Don't tell a soul.png" alt="Slide 2">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/The Beaten Path.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/shutter island.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+  </div>
+  <button class="arrow next">&#10095;</button>
+</div>
+
+<!-- Second slider -->
+<div class="container-h2">
+  <h2>Romance</h2>
+</div>
+<div class="slider">
+  <button class="arrow prev">&#10094;</button>
+  <div class="slides">
+    <div class="slide">
+      <img src="images/passions of their dreams.png" alt="Slide 1">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/the billionaires.png" alt="Slide 2">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/second chance.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/An Honest Woman.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+
+
+    <!-- Third slider -->
+    <div class="container-h2">
+  <h2>Thillers</h2>
+</div> 
+<div class="slider">
+  <button class="arrow prev">&#10094;</button>
+  <div class="slides">
+    <div class="slide">
+      <img src="images/Troll.png" alt="Slide 1">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/Let Him In.png" alt="Slide 2">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/He said she said.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/lies.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+  </div>
+  <button class="arrow next">&#10095;</button>
+</div>
+<style>
+.slide {
+  display: inline-block;
+}
+</style>
+<br>
+
+
+<! Four slider -->
+<div class="container-h2">
+  <h2>Kids</h2>
+</div>
+<div class="slider">
+  <button class="arrow prev">&#10094;</button>
+  <div class="slides">
+    <div class="slide">
+      <img src="images/Rectangle 11.png" alt="Slide 1">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/Rectangle 12.png" alt="Slide 2">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/Rectangle 9.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+    <div class="slide">
+      <img src="images/ABC.png" alt="Slide 3">
+      <br>
+      <button class="borrow-btn" style="background-color: blue;">Borrow</button>
+    </div>
+  </div>
+  <button class="arrow next">&#10095;</button>
+</div>
+
+<br>
+<br>
+
+
+<!-- TEXT & IMAGES START -->
+<h2>Read your textbooks & find supporting sources</h2>
+<div style="display: flex;">
+  <img src="images/physiological.png" alt="Image 1" style="width: 10%;">
+  <img src="images/Language.png" alt="Image 2" style="width: 10%;">
+  <img src="images/mathematics.png" alt="Image 3" style="width: 10%;">
+  <img src="images/Learning science.png" alt="Image 4" style="width: 10%;">
+</div>
+
+<!-- TEXT AND IMAGES END -->
+
+<br>
+<br>
+
+<!-- rectangular box START -->
+
+<div style="width: 300px; height: 100px; background-color: rectangle;">
+  <h1 style="font-size: smaller;">DISCOVER</h1>
+  <h1 style="font-size: smaller;">Go beyond your reading list</h1>
+  <h1 style="font-size: smaller;">with a selection of 950+ themes & subtopics to investigate</h1>
+  <h2 style="float: right; color: blue;">
+    <h3 style="float: right; color: blue;">View all topics</h3>
+  </h2>
+</div>
+
+<div style="display:flex; justify-content:space-between; width:600px;">
+  <div style="border:1px solid black; width:200px; height:70px; margin-right:20px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Education</h1>
+      <h2 style="font-size:12px; color:#808080;">19,301 Books</h2>
+    </div>
+  </div>
+  
+  <div style="border:1px solid black; width:200px; height:70px; margin-right:20px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Art</h1>
+      <h2 style="font-size:12px; color:#808080;">200 Books</h2>
+    </div>
+  </div>
+  <div style="border:1px solid black; width:200px; height:70px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Design</h1>
+      <h2 style="font-size:12px; color:#808080;">800 Books</h2>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+<div style="display:flex; justify-content:space-between; width:600px;">
+  <div style="border:1px solid black; width:200px; height:70px; margin-right:20px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Economics</h1>
+      <h2 style="font-size:12px; color:#808080;">5,301 Books</h2>
+    </div>
+  </div>
+  
+  <div style="border:1px solid black; width:200px; height:70px; margin-right:20px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Computer</h1>
+      <h2 style="font-size:12px; color:#808080;">650 Books</h2>
+    </div>
+  </div>
+  <div style="border:1px solid black; width:200px; height:70px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Science</h1>
+      <h2 style="font-size:12px; color:#808080;">1,098 Books</h2>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div style="display:flex; justify-content:space-between; width:600px;">
+  <div style="border:1px solid black; width:200px; height:70px; margin-right:20px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">History</h1>
+      <h2 style="font-size:12px; color:#808080;">5,301 Books</h2>
+    </div>
+  </div>
+  
+  <div style="border:1px solid black; width:200px; height:70px; margin-right:20px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Business</h1>
+      <h2 style="font-size:12px; color:#808080;">9,504 Books</h2>
+    </div>
+  </div>
+  <div style="border:1px solid black; width:200px; height:70px;">
+    <div style="padding:10px;">
+      <h1 style="margin:0; font-size:12px;">Architecture</h1>
+      <h2 style="font-size:12px; color:#808080;"> 798 Books</h2>
+    </div>
+  </div>
+</div>
+
+
+<!-- rectangular box END -->
+
+
+<!-- PRICING TABLE START -->
+
+
+    <style>
+      .pricing-table {
+        display: flex;
+        justify-content: center;
+      }
+
+      .pricing-card {
+        width: 300px;
+        background-color: lightgray;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .pricing-header {
+        background-color: darkgrey;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .pricing-body {
+        padding: 20px;
+      }
+
+      .pricing-footer {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+      .price {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .price-unit {
+        font-size: 20px;
+        color: gray;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pricing-table">
+      <div class="pricing-card">
+        <div class="price">Monthly</div>
+        <div class="pricing-body">
+          <div class="price">$10 USD</div>
+          <div class="month">Monthly</div>
+          <p>Monthly billing; anytime cancellation</p>
+        </div>
+        <div class="pricing-footer">
+          <a href="#" class="btn">Start free Trial</a>
+        </div>
+      </div>
+      <div class="pricing-table">
+        <div class="pricing-card">
+          <div class="price">Monthly</div>
+          <div class="pricing-body">
+            <div class="price">$8 USD</div>
+            <div class="month">Monthly</div>
+            <p>Monthly billing; anytime cancellation</p>
+          </div>
+          <div class="pricing-footer">
+            <a href="#" class="btn">Start free Trial</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+<!-- PRICING TABLE END -->
+
+
+<!-- BOTTOM HEADING  -->
+
+<h1 style="text-align:center">OUR COMMUNITY</h1>
+<h1 style="text-align:center">What people are saying about us</h1>
+<div style="display:flex;">
+  <div style="flex:1;">
+    <h3 style="text-align:left; font-size:small">It's hard not to recommend Supreme</h3>
+    <h4 style="text-align:left; font-size:small">Angel</h4>
+  </div>
+  <div style="flex:1;">
+    <h3 style="text-align:left; font-size:small">"Superb</h3>
+    <h4 style="text-align:left; font-size:small">Akin Abel</h4>
+  </div>
+
+  <div style="flex:1;">
+    <h3 style="text-align:left; font-size:small">"The Customer service is great"</h3>
+    <h4 style="text-align:left; font-size:small">Akin Abel</h4>
+  </div>
+</div>
+
+<div style="display:flex;">
+  <div style="flex:1;">
+    <h3 style="text-align:left; font-size:small">"I just wanted to say Thank You"</h3>
+    <h4 style="text-align:left; font-size:small">Laura</h4>
+  </div>
+
+
+  <div style="flex:1;">
+    <h3 style="text-align:left; font-size:small">"Best Library in DC"</h3>
+    <h4 style="text-align:left; font-size:small">Laura</h4>
+  </div>
+
+
+  <div style="flex:1;">
+    <h3 style="text-align:left; font-size:small">"Highly recommended for both studying and leisure reading!"</h3>
+    <h4 style="text-align:left; font-size:small">Krolls</h4>
+  </div>
+</div>
+<!-- BOTTOM HEADING  -->
+
+
+
+<!-- FOOTER START -->
+
+
+<footer style="background-color: black; display: flex; justify-content: space-between;">
+  <div style="flex-basis: 30%;">
+    <h1 style="text-transform: uppercase; color: white; font-size: 14px;">SUPREME</h1>
+    <h2 style="color: white; font-size: 14px;">Pricing</h2>
+    <h2 style="color: white; font-size: 14px;">FAQ's</h2>
+    <h2 style="color: white; font-size: 14px;">Contact Us</h2>
+    <h2 style="color: white; font-size: 14px;">Supreme for Instructors</h2>
+    <h2 style="color: white; font-size: 14px;">Careers</h2>
+  </div>
+  <div style="flex-basis: 30%;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 style="color: white; font-size: 14px;">Topics</h2>
+    <h2 style="color: white; font-size: 14px;">Reading Lists</h2>
+  </div>
+  <div style="flex-basis: 30%;">
+    <h1 style="text-transform: uppercase; color: white; font-size: 14px;">LEARN</h1>
+    <h3 style="color: white; font-size: 14px;">Architecture</h3>
+    <h3 style="color: white; font-size: 14px;">Art</h3>
+    <h3 style="color: white; font-size: 14px;">Biological Sciences</h3>
+    <h3 style="color: white; font-size: 14px;">Business</h3>
+    <h3 style="color: white; font-size: 14px;">Computer Science</h3>
+    <h3 style="color: white; font-size: 14px;">Design</h3>
+  </div>
+
+
+  <div style="flex-basis: 30%;">
+    <br>
+    <br>
+    <br>
+    <!-- <h1 style="text-transform: uppercase; color: white; font-size: 14px;">LEARN</h1> -->
+    <h3 style="color: white; font-size: 14px;">Economics</h3>
+    <h3 style="color: white; font-size: 14px;">Education</h3>
+    <h3 style="color: white; font-size: 14px;">History</h3>
+    <h3 style="color: white; font-size: 14px;">Languages</h3>
+    <h3 style="color: white; font-size: 14px;">Law</h3>
+    <h3 style="color: white; font-size: 14px;">Literature</h3>
+  </div>
+
+
+  <div style="display: flex; justify-content: space-between;">
+    <div style="flex-basis: 30%;">
+      <br>
+      <br>
+      <br>
+      <h3 style="color: white; font-size: 14px;">Politics</h3>
+      <h3 style="color: white; font-size: 14px;">Psychology</h3>
+      <h3 style="color: white; font-size: 14px;">Technology</h3>
+      <h3 style="color: white; font-size: 14px;">Enginnering</h3>
+      <h3 style="color: white; font-size: 14px;">Theology</h3>
+    </div>
+  
+    <br>
+    <br>
+    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+      <i class="fab fa-instagram" style="color: white; font-size: 14px;"></i>
+      <i class="fab fa-twitter" style="color: white; font-size: 14px;"></i>
+      <i class="fab fa-linkedin" style="color: white; font-size: 14px;"></i>
+      <i class="fab fa-facebook" style="color: white; font-size: 14px;"></i>
+    </div>
+  
+</footer>
+
+
+
+<script>
+const sliders = document.querySelectorAll('.slider');
+
+sliders.forEach((slider, sliderIndex) => {
+  const slides = slider.querySelectorAll('.slide');
+  const prevBtn = slider.querySelector('.prev');
+  const nextBtn = slider.querySelector('.next');
+
+  let index = 0;
+
+  const showSlide = (slideIndex) => {
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+    slides[slideIndex].style.display = 'inline-block';
+  };
+
+  showSlide(index);
+
+  prevBtn.addEventListener('click', () => {
+    index--;
+    if (index < 0) {
+<!-- IMAGE SLIDER END -->
+
+ 
+
+
+
+
 </body>
 </html>
